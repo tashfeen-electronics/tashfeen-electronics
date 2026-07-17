@@ -1,0 +1,60 @@
+<svg width="900" height="140" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f1a"/>
+      <stop offset="100%" stop-color="#111a2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="140" fill="url(#bg3)"/>
+  <g stroke="#1c2740" stroke-width="1">
+    <path d="M0 20 H900 M0 50 H900 M0 70 H900 M0 90 H900 M0 120 H900"/>
+    <path d="M90 0 V140 M180 0 V140 M270 0 V140 M360 0 V140 M450 0 V140 M540 0 V140 M630 0 V140 M720 0 V140 M810 0 V140"/>
+  </g>
+
+  <!-- oscilloscope waveform, looping scroll -->
+  <g>
+    <path d="M-900 70 
+      C -850 20, -820 20, -790 70
+      S -730 120, -700 70
+      S -640 20, -610 70
+      S -550 120, -520 70
+      S -460 20, -430 70
+      S -370 120, -340 70
+      S -280 20, -250 70
+      S -190 120, -160 70
+      S -100 20, -70 70
+      S -10 120, 20 70
+      S 80 20, 110 70
+      S 170 120, 200 70
+      S 260 20, 290 70
+      S 350 120, 380 70
+      S 440 20, 470 70
+      S 530 120, 560 70
+      S 620 20, 650 70
+      S 710 120, 740 70
+      S 800 20, 830 70
+      S 890 120, 920 70
+      S 980 20, 1010 70
+      S 1070 120, 1100 70
+      S 1160 20, 1190 70
+      S 1250 120, 1280 70
+      S 1340 20, 1370 70
+      S 1430 120, 1460 70
+      S 1520 20, 1550 70
+      S 1610 120, 1640 70
+      S 1700 20, 1730 70
+      S 1790 120, 1820 70"
+      fill="none" stroke="#7cffb2" stroke-width="2.5">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 900,0" dur="3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- scan line glow -->
+  <rect x="0" y="0" width="4" height="140" fill="#00e5ff" opacity="0.6">
+    <animate attributeName="x" values="0;896;0" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="450" y="130" font-family="Consolas, Menlo, monospace" font-size="12" fill="#3a4a6b" text-anchor="middle">
+    // built board by board — thanks for stopping by
+  </text>
+</svg>
