@@ -1,0 +1,92 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f1a"/>
+      <stop offset="100%" stop-color="#111a2b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7cffb2" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7cffb2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="beam" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#7cffb2" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7cffb2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="260" fill="url(#bg)"/>
+
+  <g stroke="#1c2740" stroke-width="1">
+    <path d="M0 40 H900 M0 80 H900 M0 120 H900 M0 160 H900 M0 200 H900 M0 240 H900"/>
+    <path d="M60 0 V260 M160 0 V260 M260 0 V260 M360 0 V260 M460 0 V260 M560 0 V260 M660 0 V260 M760 0 V260 M860 0 V260"/>
+  </g>
+
+  <g fill="none" stroke="#26364f" stroke-width="3">
+    <path d="M0 60 H180 L210 90 H420 L450 60 H900"/>
+    <path d="M0 200 H140 L170 170 H360 L390 200 H700 L730 170 H900"/>
+    <path d="M120 260 V220 L150 190 V60"/>
+    <path d="M780 0 V70 L750 100 V260"/>
+  </g>
+
+  <g fill="#26364f">
+    <circle cx="180" cy="60" r="5"/>
+    <circle cx="450" cy="60" r="5"/>
+    <circle cx="140" cy="200" r="5"/>
+    <circle cx="730" cy="170" r="5"/>
+  </g>
+
+  <circle r="5" fill="#7cffb2">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M0 60 H180 L210 90 H420 L450 60 H900"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="9" fill="url(#glow)">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M0 60 H180 L210 90 H420 L450 60 H900"/>
+  </circle>
+
+  <circle r="5" fill="#00e5ff">
+    <animateMotion dur="5.5s" begin="1s" repeatCount="indefinite" path="M0 200 H140 L170 170 H360 L390 200 H700 L730 170 H900"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="5.5s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="8" fill="url(#glow)">
+    <animateMotion dur="5.5s" begin="1s" repeatCount="indefinite" path="M0 200 H140 L170 170 H360 L390 200 H700 L730 170 H900"/>
+  </circle>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-80,0; 980,0" dur="9s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0; 0,6; 0,0" dur="2.4s" repeatCount="indefinite"/>
+      <polygon points="60,135 20,220 100,220" fill="url(#beam)"/>
+      <ellipse cx="60" cy="128" rx="46" ry="14" fill="#3a4a6b" stroke="#7cffb2" stroke-width="1.5"/>
+      <ellipse cx="60" cy="118" rx="22" ry="16" fill="#1c2740" stroke="#00e5ff" stroke-width="1.5"/>
+      <ellipse cx="60" cy="115" rx="14" ry="9" fill="#0b0f1a" opacity="0.6"/>
+      <circle cx="28" cy="130" r="3" fill="#7cffb2">
+        <animate attributeName="opacity" values="1;0.2;1" dur="0.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="60" cy="134" r="3" fill="#00e5ff">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="0.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="92" cy="130" r="3" fill="#7cffb2">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.1s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <g fill="#7cffb2">
+    <circle cx="500" cy="30" r="2">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="640" cy="220" r="2">
+      <animate attributeName="opacity" values="0;1;0" dur="2.4s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="320" cy="230" r="2">
+      <animate attributeName="opacity" values="0;1;0" dur="2.8s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="450" y="145" font-family="Consolas, Menlo, monospace" font-size="32" fill="#eaf6ff" text-anchor="middle" font-weight="bold">
+    MUHAMMAD TASHFEEN
+  </text>
+  <text x="450" y="172" font-family="Consolas, Menlo, monospace" font-size="15" fill="#7cffb2" text-anchor="middle">
+    Electronics Engineering · PCB Design · KiCad
+  </text>
+</svg>
