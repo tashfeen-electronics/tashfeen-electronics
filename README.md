@@ -20,7 +20,7 @@
 I'm **Muhammad Tashfeen**, an electronics engineering student building a **visible, hands-on PCB design portfolio** — not just coursework, real boards, real repos. Every project here is a rung on a circuit ladder I'm climbing on purpose, on the way to freelance PCB work and competitive master's applications.
 
 - 🎓 Electronics Engineering student — heading into a new semester, ~2 years to graduation
-- 🛠️ Designing in **KiCad**, simulating in **Wokwi**
+- 🛠️ Designing in **KiCad**, **Altium designer** ,simulating in **LTspice and Multisim**
 - 📡 Currently working through: `ATtiny85 → ESP32 → TP4056 → USB PSU → RS485`
 - 🧭 Long game: fundamentals → KiCad mastery → design rules → portfolio ladder → niche specialization → freelancing
 - 📚 Learning from **Phil's Lab** and **Robert Feranec** on YouTube
