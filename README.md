@@ -89,8 +89,8 @@ My portfolio isn't a list of tutorials — it's a sequenced progression. Each bo
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-tashfeen01/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mtashfeen761@gmail.com)
 [![Hackster](https://img.shields.io/badge/Hackster.io-25C2A0?style=for-the-badge&logo=hackster&logoColor=white)](#)
 
 <sub>Open to PCB design freelance work — schematics, layout, BOM, DFM review.</sub>
@@ -114,8 +114,8 @@ My portfolio isn't a list of tutorials — it's a sequenced progression. Each bo
      - This step is optional — everything else in this README works without it
 -->
 
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 💬 Ask me about , 
+- 📫 How to reach me: mtashfeen761@gmail.com or 03258460189
+- 😄 Pronouns: He/him
+- ⚡ Fun fact: Swimmer who enjoys solving engineering problems.
 -->
