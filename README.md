@@ -35,8 +35,8 @@ My portfolio isn't a list of tutorials — it's a sequenced progression. Each bo
 | # | Board | Focus | Status |
 |---|-------|-------|--------|
 | 1 | `ATtiny85 LED Blink` | KiCad onboarding, schematic → PCB basics | ✅ |
-| 2 | `TP4056 Li-ion Charger` | Power management, protection circuits | 🔧 In progress |
-| 3 | `USB Power Supply` | Regulation, USB-C basics | ⏳ Queued |
+| 2 | `ESP32 boaard` | Agri IOT, Outdoor plus many sensors on baord | 🔧 In progress |
+| 3 | `Stm32` | Regulation, USB-C basics | ⏳ Queued |
 | 4 | `ESP32 Dev Board` | Wireless MCU, antenna keep-out, decoupling | ⏳ Queued |
 | 5 | `RS485 Transceiver` | Differential signaling, industrial comms | ⏳ Queued |
 
